@@ -93,9 +93,8 @@ a:hover {
 }
 
 .info {
-	margin-top: 1em;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.2em;
 	font-family: 'Roboto Mono', monospace;
 }
 
@@ -105,16 +104,3 @@ a:hover {
 	align: center; 
 }
 
-.title {
-	text-align: center;
-}
-
-.subtitle {
-	text-align: center;
-}
-
-.imgcontainer {
-	align: center;
-	text-align: center;
-	margin-top: 3em;
-}
