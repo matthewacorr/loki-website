@@ -45,10 +45,7 @@ table {
 }
 
 
-
 /* Begin User CSS */
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
-
 
 html {
 		font-family: 'Open Sans', monospace;
@@ -115,6 +112,6 @@ a:hover {
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.3em;
-	margin-left: 15em;
-	margin-right: 15em;
+	margin-left:  20%;
+	margin-right: 20%;
 }
