@@ -51,18 +51,22 @@ table {
 
 
 html {
-	font-family: 'Bungee', cursive;
+		font-family: 'Open Sans', monospace;
 	background-color: #2A363F;
 	color: #e8e8e8;
 }
 
 h1 {
+	font-family: 'Bungee', cursive;
 	font-size: 1.8em;
 	text-align: center;
+
 }
 
 h2 {
+	font-family: 'Bungee', cursive;
 	text-align: center;
+	padding-bottom: 2em;
 }
 
 p + p {
@@ -70,11 +74,10 @@ p + p {
 }
 
 a {
-	font-family: 'Roboto Mono', monospace;
 	color: #5f819d;
 	font-style: italic;
 	font-size: 1.2em;
-	text-decoration: none; 
+	text-decoration: none;
 }
 
 a:hover {
@@ -105,6 +108,13 @@ a:hover {
 
 .trentlogo {
 	margin-top: 5%;
-	align: center; 
+	align: center;
 }
 
+.essay {
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3em;
+	margin-left: 15em;
+	margin-right: 15em;
+}
