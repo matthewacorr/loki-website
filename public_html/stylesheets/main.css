@@ -70,6 +70,24 @@ p + p {
 	margin-top: 2em;
 }
 
+i {
+	font-style: italic;
+	font-weight: lighter;
+	color: #817e9f;
+}
+
+em {
+	font-weight: bold;
+	color: #7fc29b;
+}
+
+
+ul {
+	font-size: 0.8em;
+	font-weight: lighter;
+	list-style-type: disc;
+}
+
 a {
 	color: #5f819d;
 	font-style: italic;
@@ -79,10 +97,6 @@ a {
 
 a:hover {
 	color: #8c9440;
-}
-
-em {
-	font-weight: bold;
 }
 
 .name {
