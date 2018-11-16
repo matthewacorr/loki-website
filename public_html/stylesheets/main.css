@@ -70,10 +70,15 @@ p + p {
 	margin-top: 2em;
 }
 
-i {
+q {
 	font-style: italic;
 	font-weight: lighter;
-	color: #817e9f;
+	color: #87d1f0;
+}
+
+blockquote {
+	font-style: italic;
+	color: #87d1f0;
 }
 
 em {
@@ -133,4 +138,13 @@ a:hover {
 	margin-left:  20%;
 	margin-right: 20%;
 	line-height: 1.2em;
+}
+
+table, th, td {
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+
+th, td {
+	 padding: 15px;
 }
