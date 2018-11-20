@@ -53,8 +53,8 @@ table {
 /* Site Wide */
 html {
 	font-family: 'Open Sans', monospace;
-	background-color: #2A363F;
-	color: #e8e8e8;
+	background-color: #073f50;
+	color: #e0eeee;
 }
 
 p {
@@ -64,7 +64,7 @@ p {
 q {
 	font-style: italic;
 	font-weight: lighter;
-	color: #87d1f0;
+	color: #e3b505;
 }
 
 blockquote {
@@ -74,7 +74,7 @@ blockquote {
 
 em {
 	font-weight: bold;
-	color: #7fc29b;
+	color: #db504a;
 }
 
 ul {
@@ -84,13 +84,13 @@ ul {
 }
 
 a {
-	color: #5f819d;
+	color: #68b47f;
 	font-size: 1.2em;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #8c9440;
+	color: #e3b505;
 	text-decoration: underline;
 }
 
@@ -160,7 +160,7 @@ a:hover {
 }
 
 table, th, td {
-    border: 2px dashed gray;
+    border: 2px dashed #e3b505;
     border-collapse: collapse;
 }
 
