@@ -44,11 +44,14 @@ table {
 	border-spacing: 0;
 }
 
+/***
+	Main.CSS
+	By: Matthew Corr
+***/
 
-/* Begin User CSS */
 
 html {
-		font-family: 'Open Sans', monospace;
+	font-family: 'Open Sans', monospace;
 	background-color: #2A363F;
 	color: #e8e8e8;
 }
@@ -57,17 +60,16 @@ h1 {
 	font-family: 'Bungee', cursive;
 	font-size: 1.8em;
 	text-align: center;
-
 }
 
 h2 {
-	font-family: 'Bungee', cursive;
+	font-weight: bold;
 	text-align: center;
 	padding-bottom: 2em;
 }
 
-p + p {
-	margin-top: 2em;
+p {
+	padding-bottom: 1em;
 }
 
 q {
@@ -95,13 +97,13 @@ ul {
 
 a {
 	color: #5f819d;
-	font-style: italic;
 	font-size: 1.2em;
 	text-decoration: none;
 }
 
 a:hover {
 	color: #8c9440;
+	text-decoration: underline;
 }
 
 .name {
@@ -117,14 +119,15 @@ a:hover {
 	border: 2px solid #e8e8e8;
 	padding: 20px;
 	text-align: center;
+
 }
 
 .info {
 	text-align: center;
 	font-size: 1.2em;
-	font-family: 'Roboto Mono', monospace;
+	padding-bottom: 0.4em;
+	padding-top: 0.4em;
 }
-
 
 .trentlogo {
 	margin-top: 5%;
@@ -141,10 +144,10 @@ a:hover {
 }
 
 table, th, td {
-    border: 2px solid gray;
+    border: 2px dashed gray;
     border-collapse: collapse;
 }
 
 th, td {
-	 padding: 15px;
+	 padding: 0.5em;
 }
