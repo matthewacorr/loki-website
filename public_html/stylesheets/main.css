@@ -175,3 +175,37 @@ table, th, td {
 th, td {
 	 padding: 0.5em;
 }
+
+/* Login */
+.btn {
+		width: 30%;
+		background-color: #68b47f;
+    border: none;
+		border-radius: 0.5em;
+    color: #e0eeee;
+    padding: 14px 27px;
+    text-align: center;
+    display: block;
+		margin-left: auto;
+		margin-right: auto;
+    font-size: 16px;
+}
+
+.btn:hover{
+  background: #e3b505;
+	color: #202020;
+  text-decoration: none;
+}
+
+.FormInput {
+	background-color: #04232c;
+	color: white;
+	width: 70%;
+	display: block;
+	border-radius: 0.5em;
+	border: none;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
