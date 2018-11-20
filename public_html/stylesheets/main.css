@@ -50,22 +50,11 @@ table {
 ***/
 
 
+/* Site Wide */
 html {
 	font-family: 'Open Sans', monospace;
 	background-color: #2A363F;
 	color: #e8e8e8;
-}
-
-h1 {
-	font-family: 'Bungee', cursive;
-	font-size: 1.8em;
-	text-align: center;
-}
-
-h2 {
-	font-weight: bold;
-	text-align: center;
-	padding-bottom: 2em;
 }
 
 p {
@@ -105,6 +94,14 @@ a:hover {
 	text-decoration: underline;
 }
 
+/* Index */
+.IndexHeader {
+	text-align: center;
+	margin-top: 1.5em;
+	font-family: 'Boogaloo', cursive;
+	font-size: 2.5em;
+}
+
 .name {
 	margin-top: 5%;
 	color: #5f819d;
@@ -121,6 +118,20 @@ a:hover {
 
 }
 
+.trentlogo {
+	margin-top: 5%;
+	align: center;
+}
+
+/* Assignment n */
+.AssignmentHeader {
+	text-align: center;
+	margin-top: 1.5em;
+	font-family: 'Boogaloo', cursive;
+	font-size: 2.5em;
+	margin-bottom: 1.5em;
+}
+
 .info {
 	text-align: center;
 	font-size: 1.2em;
@@ -128,11 +139,17 @@ a:hover {
 	padding-top: 0.4em;
 }
 
-.trentlogo {
-	margin-top: 5%;
-	align: center;
+.imgcontainer{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+/* Assignment 1 */
+
+/* Assignment 2 */
+
+/* Assignment 3 */
 .essay {
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
