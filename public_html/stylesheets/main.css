@@ -265,3 +265,9 @@ th, td {
   margin-right: auto;
   margin-bottom: 30px;
 }
+
+.passwordrestrictions {
+	text-align: center;
+  font-size: 0.8em;
+	font-style: italic;
+}
