@@ -99,7 +99,6 @@ a {
 
 a:hover {
 	color: #e3b505;
-	text-decoration: underline;
 }
 
 .BigLink {
@@ -180,11 +179,38 @@ li.dropdown {
 }
 @media screen and (max-width: 600px){ul.navbar li.right,ul.navbar li {float: none;}}
 
+/* Social Media */
+.SocialBar {
+	background-color: #04232c;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.SocialBar a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-align: none;
+	font-size: 17px;
+}
+
+.SocialBar p {
+	float: right;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-align: none;
+	font-size: 17px;
+}
+
 /* Index */
 .IndexHeader {
 	text-align: center;
 	margin-top: 1em;
-	font-family: 'Boogaloo', cursive;
+	font-family: 'Raleway', cursive;
 	font-size: 2.5em;
 }
 
@@ -213,7 +239,7 @@ li.dropdown {
 .AssignmentHeader {
 	text-align: center;
 	margin-top: 1em;
-	font-family: 'Boogaloo', cursive;
+	font-family: 'Raleway', cursive;
 	font-size: 2.5em;
 	margin-bottom: 1.5em;
 }
@@ -256,7 +282,7 @@ th, td {
 
 /* Login and Registration */
 .btn {
-		font-family: 'Boogaloo', cursive;
+		font-family: 'Raleway', cursive;
 		width: 10%;
 		background-color: #68b47f;
     border: none;
