@@ -87,9 +87,8 @@ a:hover {
 	color: #e3b505;
 }
 
-.BigLink {
-		text-decoration: underline;
-		font-size: 1.5em;
+.inlinelink {
+	text-decoration: underline;
 }
 
 /* Code Style */
@@ -235,6 +234,13 @@ li.dropdown {
 	font-size: 1.2em;
 	padding-bottom: 0.4em;
 	padding-top: 0.4em;
+}
+
+.smallinfo {
+	text-align: center;
+	font-size: 0.7em;
+	padding-bottom: 0.4em;
+	padding-top: 0.2em;
 }
 
 .imgcontainer{

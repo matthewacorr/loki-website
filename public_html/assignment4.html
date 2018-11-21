@@ -35,8 +35,17 @@
 			<h2 class="subtitle">Assignment 4</h2>
 		</div>
 
-
-		<p class="essay"> Below is my CSS file.</p>
+		<div class="essay">
+				<p>&nbsp &nbsp &nbsp During high school I spent a couple of years doing very basic <em>HTML</em> and <em>CSS</em> design which taught me some of the fundamentals of making a functioning website. When designing this website, I had the goal of making it simple yet functional. While it might not be perfect, I have made all the <em>HTML</em> and <em>CSS</em> on this site except the <em>CSS Reset</em> (while checking <a class="inlinelink" target="_blank" href="https://www.w3schools.com/default.asp">w3schools</a> a lot of course). I do not have screenshots of my website before I changed the <em>CSS</em> as I started changing it after assignment one; however it was very bland with only inline <em>CSS</em> style changes.</p>
+				<p>&nbsp &nbsp &nbsp First I went to <a class="inlinelink" href="http://coolors.co/">coolors.co</a>, a site which makes it easy to make a simple color palette, I played around with the colors and once I was happy with my selection I added the colors into my <em>CSS</em>. One of the issues I have currently is that I only have one <em>CSS</em> file and it has gotten progressively messier. In the coming days I aim to reduce the amount of redundant code and split it into multiple files for debugging as I keep running into inheritance issues.</p>
+				<figure class="imgcontainer">
+					<center><img src = "images/assignment4/colors.png" width = "45%" float = "true"></img>
+					<figcaption class="smallinfo">the colorscheme I made on <a class="inlinelink" href="http://coolors.co/">coolors.co</a></figcaption>
+					</center>
+				</figure>
+				<p>&nbsp &nbsp &nbsp All the icons on this site are made with <a class="inlinelink" href="https://fontawesome.com/">Font Awesome</a> which is an easy way to add icons into your website without needing your own image file. Fonts were added through <a class="inlinelink" href="https://fonts.google.com/">Google Fonts</a> which provide fonts with no usage restrictions. The navbar and social media were made using inline unordered lists.</p>
+				<p>&nbsp &nbsp &nbsp You can view my main.css file <a class="inlinelink" href="stylesheets/main.css">here</a>, I have attempted to make it easier to read by separating each element with code comments. The <em>CSS</em> can also be viewed below (I will keep cleaning this code as time goes on):<p>
+		</div>
 		<div class="Code">
 			<pre>
 				<code>
@@ -62,35 +71,13 @@
 						font: inherit;
 						vertical-align: baseline;
 					}
-					/* HTML5 display-role reset for older browsers */
-					article, aside, details, figcaption, figure,
-					footer, header, hgroup, menu, nav, section {
-						display: block;
-					}
-					body {
-						line-height: 1;
-					}
-					ol, ul {
-						list-style: none;
-					}
-					blockquote, q {
-						quotes: none;
-					}
-					blockquote:before, blockquote:after,
-					q:before, q:after {
-						content: '';
-						content: none;
-					}
-					table {
-						border-collapse: collapse;
-						border-spacing: 0;
-					}
 
 					/***
+
 						Main.CSS
 						By: Matthew Corr
-					***/
 
+					***/
 
 					/* Site Wide */
 					html {
@@ -99,9 +86,17 @@
 						color: #e0eeee;
 					}
 
+					h1 {
+						font-size: 1.5em;
+					}
+
+					h2 {
+						font-size: 1.8em;
+					}
+
 					h3 {
 						color: #db504a;
-						font-size: 2em;
+						font-size: 1.2em;
 						padding-top: 1.2em;
 						padding-bottom: 0.8em;
 						text-decoration: underline;
@@ -141,12 +136,28 @@
 
 					a:hover {
 						color: #e3b505;
+					}
+
+					.inlinelink {
 						text-decoration: underline;
 					}
 
-					.BigLink {
-							text-decoration: underline;
-							font-size: 1.5em;
+					/* Code Style */
+					pre {
+						white-space: pre-wrap;
+						white-space: -moz-pre-wrap;
+						white-space: -o-pre-wrap;
+						word-wrap: break-word;
+					}
+
+					code {
+					font-family: Courier, 'New Courier', monospace;
+					font-size: 12px;
+					}
+
+					.Code {
+						margin-left: auto;
+						margin-right: auto;
 					}
 
 					/* Navigation Bar */
@@ -204,6 +215,33 @@
 					}
 					@media screen and (max-width: 600px){ul.navbar li.right,ul.navbar li {float: none;}}
 
+					/* Social Media */
+					.SocialBar {
+						background-color: #04232c;
+						overflow: hidden;
+						position: fixed;
+						bottom: 0;
+						width: 100%;
+					}
+
+					.SocialBar a {
+						float: left;
+						display: block;
+						text-align: center;
+						padding: 14px 16px;
+						text-align: none;
+						font-size: 17px;
+					}
+
+					.SocialBar p {
+						float: right;
+						display: block;
+						text-align: center;
+						padding: 14px 16px;
+						text-align: none;
+						font-size: 17px;
+					}
+
 					/* Index */
 					.IndexHeader {
 						text-align: center;
@@ -247,6 +285,13 @@
 						font-size: 1.2em;
 						padding-bottom: 0.4em;
 						padding-top: 0.4em;
+					}
+
+					.smallinfo {
+						text-align: center;
+						font-size: 0.3em;
+						padding-bottom: 0.4em;
+						padding-top: 0.2em;
 					}
 
 					.imgcontainer{
@@ -318,6 +363,49 @@
 					  font-size: 0.8em;
 						font-style: italic;
 					}
+
+					/* Resume */
+					.resume {
+						margin-left: 10%;
+						margin-right: 10%;
+					}
+
+					hr {
+					border-color: #04232c;
+					}
+
+					#name {
+						float: left;
+					}
+
+					.skillsList, #ContactInfo, ul {
+						list-style-type: none;
+					}
+
+					#contactInfo {
+						float: right;
+						color:  #e3b505;
+						font-size: 1.2em;
+						line-height: 1.2em;
+					}
+
+					.clear {
+						clear: both;
+					}
+
+					#location, #duration {
+						color: #e3b505;
+						font-weight: bold;
+					}
+
+					#location {
+						float: left
+					}
+
+					#duration {
+						float: right;
+					}
+
 				</code>
 			</pre>
 		</div>
