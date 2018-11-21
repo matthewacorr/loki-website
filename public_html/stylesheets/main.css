@@ -45,10 +45,11 @@ table {
 }
 
 /***
+
 	Main.CSS
 	By: Matthew Corr
-***/
 
+***/
 
 /* Site Wide */
 html {
@@ -57,9 +58,17 @@ html {
 	color: #e0eeee;
 }
 
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
 h3 {
 	color: #db504a;
-	font-size: 2em;
+	font-size: 1.2em;
 	padding-top: 1.2em;
 	padding-bottom: 0.8em;
 	text-decoration: underline;
@@ -319,4 +328,46 @@ th, td {
 	text-align: center;
   font-size: 0.8em;
 	font-style: italic;
+}
+
+/* Resume */
+.resume {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+hr {
+border-color: #04232c;
+}
+
+#name {
+	float: left;
+}
+
+.skillsList, #ContactInfo, ul {
+	list-style-type: none;
+}
+
+#contactInfo {
+	float: right;
+	color:  #e3b505;
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+.clear {
+	clear: both;
+}
+
+#location, #duration {
+	color: #e3b505;
+	font-weight: bold;
+}
+
+#location {
+	float: left
+}
+
+#duration {
+	float: right;
 }
