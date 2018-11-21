@@ -107,6 +107,24 @@ a:hover {
 		font-size: 1.5em;
 }
 
+/* Code Style */
+pre {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
+
+code {
+font-family: Courier, 'New Courier', monospace;
+font-size: 12px;
+}
+
+.Code {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* Navigation Bar */
 ul.navbar {
     list-style-type: none;
