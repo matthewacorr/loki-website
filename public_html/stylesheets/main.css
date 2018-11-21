@@ -155,13 +155,12 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-@media screen and (max-width: 600px){ul.topnav li.right,ul.topnav li {float: none;}}
+@media screen and (max-width: 600px){ul.navbar li.right,ul.navbar li {float: none;}}
 
 /* Index */
 .IndexHeader {
 	text-align: center;
-	margin-top: 1.5em;
+	margin-top: 1em;
 	font-family: 'Boogaloo', cursive;
 	font-size: 2.5em;
 }
@@ -190,7 +189,7 @@ li.dropdown {
 /* Assignment n */
 .AssignmentHeader {
 	text-align: center;
-	margin-top: 1.5em;
+	margin-top: 1em;
 	font-family: 'Boogaloo', cursive;
 	font-size: 2.5em;
 	margin-bottom: 1.5em;
