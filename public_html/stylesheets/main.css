@@ -231,9 +231,10 @@ th, td {
 	 padding: 0.5em;
 }
 
-/* Login */
+/* Login and Registration */
 .btn {
-		width: 30%;
+		font-family: 'Boogaloo', cursive;
+		width: 10%;
 		background-color: #68b47f;
     border: none;
 		border-radius: 0.5em;
@@ -255,7 +256,7 @@ th, td {
 .FormInput {
 	background-color: #04232c;
 	color: white;
-	width: 70%;
+	width: 40%;
 	display: block;
 	border-radius: 0.5em;
 	border: none;
