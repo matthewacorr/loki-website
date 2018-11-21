@@ -102,6 +102,11 @@ a:hover {
 	text-decoration: underline;
 }
 
+.BigLink {
+		text-decoration: underline;
+		font-size: 1.5em;
+}
+
 /* Navigation Bar */
 ul.navbar {
     list-style-type: none;
