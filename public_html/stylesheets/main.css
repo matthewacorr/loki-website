@@ -100,8 +100,8 @@ pre {
 }
 
 code {
-font-family: Courier, 'New Courier', monospace;
-font-size: 12px;
+	font-family: Courier, 'New Courier', monospace;
+	font-size: 12px;
 }
 
 .Code {
@@ -253,11 +253,18 @@ li.dropdown {
 	margin-bottom: 1.5em;
 }
 
-.info {
+.formattedText {
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3em;
+	margin-left:  20%;
+	margin-right: 20%;
+	line-height: 1.2em;
+}
+
+figcaption.formattedText {
 	text-align: center;
-	font-size: 1.2em;
-	padding-bottom: 0.4em;
-	padding-top: 0.4em;
+	padding-bottom: 2vw;
 }
 
 .smallinfo {
@@ -277,21 +284,18 @@ li.dropdown {
 	.AssignmentHeader {
 		font-size: 7vw;
 	}
+
+	.formattedText {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
 }
 
 /* Assignment 1 */
 
 /* Assignment 2 */
 
-/* Assignment 3 */
-.essay {
-	text-align: left;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.3em;
-	margin-left:  20%;
-	margin-right: 20%;
-	line-height: 1.2em;
-}
+/* Assignment 3 & 4*/
 
 table, th, td {
     border: 2px dashed #e3b505;
