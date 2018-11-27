@@ -91,6 +91,16 @@ a:hover {
 	text-decoration: underline;
 }
 
+.blankspace {
+	margin-bottom: 10%;
+}
+@media screen and (max-width: 660px){
+	.blankspace {
+		margin-bottom: 20%
+	}
+}
+
+
 /* Code Style */
 pre {
 	white-space: pre-wrap;
