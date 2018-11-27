@@ -94,6 +94,7 @@ a:hover {
 .blankspace {
 	margin-bottom: 10%;
 }
+
 @media screen and (max-width: 660px){
 	.blankspace {
 		margin-bottom: 20%
@@ -246,7 +247,7 @@ li.dropdown {
 
 	.assignblock {
 		width: 80%;
-		font-size: 1.5em;
+		font-size: 5vw;
 	}
 
 	.trentlogo {
@@ -319,7 +320,7 @@ th, td {
 /* Login and Registration */
 .btn {
 		font-family: 'Raleway', cursive;
-		width: 10%;
+		width: 25%;
 		background-color: #68b47f;
     border: none;
 		border-radius: 0.5em;
@@ -330,6 +331,7 @@ th, td {
 		margin-left: auto;
 		margin-right: auto;
     font-size: 16px;
+		white-space: nowrap;
 }
 
 .btn:hover{
@@ -355,6 +357,16 @@ th, td {
 	text-align: center;
   font-size: 0.8em;
 	font-style: italic;
+}
+
+@media screen and (max-width: 660px){
+	.btn {
+		width: 45vw;
+	}
+
+	.FormInput {
+		width: 80vw;
+	}
 }
 
 /* Resume */
