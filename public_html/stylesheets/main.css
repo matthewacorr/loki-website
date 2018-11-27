@@ -228,7 +228,7 @@ li.dropdown {
 	margin: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	width: 25%;
+	width: 30%;
 	border: 2px solid #e8e8e8;
 	padding: 20px;
 	text-align: center;
@@ -305,6 +305,20 @@ figcaption.formattedText {
 /* Assignment 1 */
 
 /* Assignment 2 */
+
+/* Assignment3 Column */
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .column {
+        width: 100%;
+    }
+}
 
 /* Assignment 3 & 4*/
 
