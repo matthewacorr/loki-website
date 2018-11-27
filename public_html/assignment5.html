@@ -36,6 +36,48 @@
 			<h2 class="subtitle">Assignment 5</h2>
 		</div>
 
+		<div class="formattedText">
+
+				<p>&nbsp &nbsp &nbsp To determine what could be slowing down my webpage I used a website speed test, which emulates a user and takes note of anything that could be hindering your sites performance. Since this site is relatively small I haven't come across many issues related to slow webpage loading. I made the webpage snappy by limiting myself on the number of external libraries I used. The only external libraries I used were <a class="inlinelink"  target="_blank" href="https://fontawesome.com/">Font Awesome</a> and <a class="inlinelink"  target="_blank" href="https://fonts.google.com/">Google Fonts</a> which both promise that they keep your webpage fast. I also cut down on file size by compressing all the images in Assignment 1 and 2 as they take up a lot of valuable bandwidth. In the future I intend to split my CSS file into different sections so that I only need to load up the CSS I need and further increase the speed of my site. </p>
+
+				<figure class="imgcontainer">
+					<center>
+					<img src = "images/assignment5/speed.png" width = "50%" float = "true"></img>
+					<figcaption class="smallinfo">a website speedtest from <a target="_blank" href="https://tools.pingdom.com/">pingdom.com</a></figcaption>
+					</center>
+				</figure>
+
+				<p>&nbsp &nbsp &nbsp Before I redesigned my website for mobile I first shrunk down my browser window size to the size of a phone to determine what formatting was broken and what classes I had to change to get my design to look good on mobile. I opened a notepad and wrote down everything that needed fixing.</p>
+
+				<figure class="imgcontainer">
+					<center>
+					<img src = "images/assignment5/stickynote.png" width = "50%" float = "true"></img>
+					<figcaption class="smallinfo">my notes before doing the redesign</figcaption>
+					</center>
+				</figure>
+
+				<p>&nbsp &nbsp &nbsp For the media queries to work you need to set a width in which the content changes to mobile formatting, in order for me to find this I opened up Firefox's web development tools which allow you to dynamically change the size of the viewport; By doing this I was able to tell that my Social Media bar text started to overlap around 660px width. I used media queries to change font sizing to <em>vw</em> instead of <em>px</em> as it allows the text to resize with the browser. I also changed the amount of padding and margins depending on which device is being used as there is less room for whitespace on mobile and content is key.</p>
+
+				<p>&nbsp &nbsp &nbsp Another thing I had to consider was accessibility, I used a <a class="inlinelink" target="_blank" href="https://webaim.org/resources/contrastchecker/">contrast checker</a> to make sure that my background and foreground colors met the minimum for people with vision impairment. Another step I took was reducing the amount of clicking you need to do to navigate, my home page is a set of quick links to my assignments as those are the focus of the site. I also used bright colors for bold text and links as it helps them pop out from regular text. On hover links change from green to a bright orange which should hint the user that they are clickable.</p>
+
+				<p><em>Words: 422</em></p>
+		</div>
+
+		<div class="AssignmentHeader">
+			<h2 class="subtitle">Test Cases:</h2>
+		</div>
+
+		<div class="formattedText">
+			<ol>
+				<li>&nbsp &nbsp &nbsp When you're on the Trent Homepage on mobile you need to click the magnifying glass on the top right. Once that's open you can enter <q>"Class Map"</q>, click the first link. Then you need to decide which campus you are looking for, so click Symons Campus (How is someone who has never been to Trent know this is the Peterbourough campus?) and then you are finally greated with an interactive map. From there you have to click the <q>"hamburger"</q> menu on the top right which brings up a menu that lets you select any class you need guidance too. This proccess is much to expect from the average end user, a map should be one of the first things visible on your homepage, navigating through 5 different links is not convienient for someone in a rush.</li>
+				<p></p>
+				<li>&nbsp &nbsp &nbsp Starting at the homepage, you will need to go back to the magnifying glass in the top right and type in <q>"Graduate timetable"</q>, the first link should bring you to a vauge page. Click the very unassuming link in the middle of the page to be linked to the <em>.PDF</em> for the graduate timetable. A better way of providing this file would be to have it on the homepage next to the undergraduate timetable. Another thing that Trent could do is have an imbedded <em>PDF</em> viewer so that users would not have to open another tab. Trent also needs to make they're links more visiable as it is not obvious at first that the green text in the middle of the page is a link.</li>
+				<p></p>
+				<li></li>
+			</ol>
+		</div>
+
+
 		<div class="blankspace"></div>
 		<div class="SocialBar">
 			<a href="#"><i class="fab fa-facebook"></i> <span class="SocialText">Facebook</span></a>
